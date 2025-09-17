@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./vendor/bs/bs.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <title>SMKN 4 TASIKMALAYA</title>
 </head>
 
@@ -46,37 +46,4 @@
             </div>
         </div>
     </nav>
-    <!-- TUTUP NAV -->
-     <div class="container">
-        <!-- SELECTION GALERI -->
-         <?php 
-              $galeri = [
-                  'foto.jpg',
-                  'guru.jpg'
-              ];
-              $i = 0;
-        ?>
-        <div class="row text-center">
-            <div class="col-lg-12">
-                <h2>galeri</h2>
-                <div class="row">
-                    <?php while ($i < count($galeri)): ?>
-                    <div class="col-lg-3">
-                        <div class="">
-                            <div class="header">
-
-                                <img src="<?=$galeri[$i]?>" alt=""width="300"height="200">
-                            </div>
-                        </div>
-                    </div>
-                    <?php $i++; ?>
-                    <?php endwhile; ?>
-
-                    
-                </div>
-                
-                    <!-- TUTUP SECTION GALERI -->
-          </div>
-        </div>
-            </body>
-            </html>
+    
