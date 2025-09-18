@@ -68,5 +68,91 @@
           </div>
   </div>
 </div>
+
+<!-- TUTUP SECTION SEJARAH -->
+
+    <!--Footer-->
+    <footer class="bg-secondary text-light pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+  
+      <!-- Alamat Sekolah -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold">Alamat Sekolah</h5>
+          <address class="mb-2">
+            SMK Negeri 4 Tasikmalaya<br>
+            Jl. Depok, Sukamenak,<br>
+            Purbaratu, Kota Tasikmalaya,<br>
+            Jawa Barat 46196<br>
+            <abbr title="Telepon">Tel:</abbr> (0265) 123456
+          </address>
+          <a href="https://www.google.com/maps/search/?api=1&query=SMKN+4+Tasikmalaya"
+              target="_blank" rel="noopener"
+              class="btn btn-sm btn-outline-light">
+            Lihat di Google Maps
+          </a>
+        </div>
+
+        <!-- Peta Google Maps -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold">Lokasi Kami</h5>
+          <div class="ratio ratio-4x3">
+            <iframe
+              src="https://www.google.com/maps?q=SMKN%204%20Tasikmalaya&output=embed"
+              style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- SNS (Social Media) -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold">Ikuti Kami</h5>
+          <ul class="list-unstyled d-flex gap-3">
+            <li><a href="https://facebook.com/" target="_blank" rel="noopener" class="text-light">
+              <i class="bi bi-facebook fs-4"></i>
+            </a></li>
+            <li><a href="https://instagram.com/" target="_blank" rel="noopener" class="text-light">
+              <i class="bi bi-instagram fs-4"></i>
+            </a></li>
+            <li><a href="https://twitter.com/" target="_blank" rel="noopener" class="text-light">
+              <i class="bi bi-twitter fs-4"></i>
+            </a></li>
+            <li><a href="https://youtube.com/" target="_blank" rel="noopener" class="text-light">
+              <i class="bi bi-youtube fs-4"></i>
+            </a></li>
+          </ul>
+        </div>
+
+        <!-- Link Eksternal -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold">Tautan Eksternal</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://smkn4-tsm.sch.id" target="_blank" rel="noopener" class="text-light text-decoration-none">Website Resmi</a></li>
+            <li><a href="https://www.kemdikbud.go.id" target="_blank" rel="noopener" class="text-light text-decoration-none">Kemdikbud</a></li>
+            <li><a href="https://disdik.jabarprov.go.id" target="_blank" rel="noopener" class="text-light text-decoration-none">Disdik Jawa Barat</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="border-light">
+  
+      <!-- Copyright -->
+      <div class="text-center">
+        <small>&copy; 2025 All rights reserved. Salsabila Sundarmi</small>
+      </div>
+    </div>
+  </footer>
+
+  <!--ikon SNS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <!--TUTUP-->
+      </div>
+    </div>
+  </div>
 </body>
 </html>
